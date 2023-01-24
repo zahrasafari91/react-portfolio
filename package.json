@@ -28,7 +28,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+<<<<<<< HEAD
     "eject": "react-scripts eject"
+=======
+    "eject": "react-scripts eject",
+    "dev": "nodemon App.js"
+    
+>>>>>>> 0b30b9a (initial commit)
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +53,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
+=======
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+>>>>>>> 0b30b9a (initial commit)
   }
 }

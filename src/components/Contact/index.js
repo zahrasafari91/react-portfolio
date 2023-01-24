@@ -2,7 +2,11 @@ import { useRef, useState } from 'react'
 import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
+<<<<<<< HEAD
 import emailjs from '@emailjs/browser';
+=======
+import emailjs from '@emailjs/browser'
+>>>>>>> 0b30b9a (initial commit)
 
 const Contact = () => {
     const [letterClass] = useState('text-animate')
@@ -10,6 +14,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+<<<<<<< HEAD
         emailjs
         .sendForm('gmail', 'template_sfnmq1x', form.current, '3xQ2owXF1Z6pcT-1g')
         .then(
@@ -22,6 +27,22 @@ const Contact = () => {
             }
         )
     }
+=======
+    
+        emailjs
+          .sendForm('service_8fq65rb', 'template_17jcsi9', form.current, '3xQ2owXF1Z6pcT-1g')
+          .then(
+            () => {
+              alert('Message successfully sent!')
+              window.location.reload(false)
+            },
+            () => {
+              alert('Failed to send the message, please try again')
+            }
+          )
+          console.log('hit me')
+      }
+>>>>>>> 0b30b9a (initial commit)
     return (
         <>
         <div className='container contact-page'>
@@ -43,16 +64,29 @@ const Contact = () => {
                         <ul>
                             <li className='half'>
                                 <input type="text" name="name" placeholder='Name' required />
+<<<<<<< HEAD
                                 <input type="email" name="email" placeholder='Email' required />
                             </li>
                             <li>
                                 <input type="text" name="subject" placeholder="Subject" />
+=======
+                            </li>
+                            <li className='half'>
+                            <input type="email" name="email" placeholder='Email' required />
+                            </li>
+                            <li>
+                                <input type="text" name="subject" placeholder="subject" />
+>>>>>>> 0b30b9a (initial commit)
                             </li>
                             <li>
                                 <textarea name="message" placeholder='Message' required></textarea>
                             </li>
                             <li>
+<<<<<<< HEAD
                                 <input className="flat-button"  type="submit" value="Send" />
+=======
+                                <input className="flat-button"  type="submit" value="submit" />
+>>>>>>> 0b30b9a (initial commit)
                             </li>
                         </ul>
                     </form>
