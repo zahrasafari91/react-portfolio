@@ -21,17 +21,11 @@ const particlesOptions = {
 const Home = () => {
     const [letterClass] = useState('text-animate')
     const nameArray = ['','z' ,'a','h','r','a']
-<<<<<<< HEAD
-    const jobArray = ['s','o','f','t','w','a','r','e','','d','e','v','e','l','o','p','e','r']
-
-    
-=======
     const pArray = ['p','a','s','s','i','o','n','a','t','e']
     const jobArray = ['s','o','f','t','w','a','r','e','','d','e','v','e','l','o','p','e','r']
     
 
 
->>>>>>> 0b30b9a (initial commit)
     return (
         <>
         <div>
@@ -51,17 +45,6 @@ const Home = () => {
                     idx={10}/>
                     <br />
                     <AnimatedLetters letterClass={letterClass}
-<<<<<<< HEAD
-                    strArray={jobArray}
-                    idx={18}/>
-                </h1>
-                <h2> mention your skills here mention your skills here mention your skills here
-                mention your skills here mention your skills here mention your skills here mention your skills here
-                mention your skills here mention your skills here mention your skills here mention your skills here
-                mention your skills here mention your skills here mention your skills here
-                </h2>
-                <Link to="/contact" className="flat-button"> Contact Me </Link>
-=======
                     strArray={pArray}
                     idx={18}/>
                     <br />
@@ -76,7 +59,6 @@ const Home = () => {
                 Industry work experience
                 </h2>
                 <Link to="/About" className="flat-button"> Contact Me (: </Link>
->>>>>>> 0b30b9a (initial commit)
             </div>
         </div>
         <Loader type='pacman' />
