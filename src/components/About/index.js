@@ -19,10 +19,6 @@ const About = () => {
 
                     />
                 </h1>
-<<<<<<< HEAD
-                <p>about me</p>
-                <p>about me</p>
-=======
                 <p>My training and experience as a software developer, along with a solid engineering foundation, <br />
                    gained from my Bachelor's degree, helped me develop strong problem-solving capabilities. <br />
                    I successfully finished several fundamental software engineering courses and also attended <br />a 
@@ -31,7 +27,6 @@ const About = () => {
                 <p>Furthermore, I have developed several applications in Java, 
                    Python and JS (React, Angular, Nodejs). <br />
                    I also work with SQL, Rest API, Cloud Technologies( like AWS) and GitHub.</p>
->>>>>>> 0b30b9a (initial commit)
                 <p>about me</p>
 
             </div>
