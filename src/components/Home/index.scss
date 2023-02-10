@@ -16,30 +16,6 @@
       font-family: 'Coolvetica';
       font-weight: 400;
   
-<<<<<<< HEAD
-      &:before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -40px;
-        left: -15px;
-        opacity: 0.6;
-      }
-  
-      &:after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: 18px;
-        margin-left: 20px;
-        animation: fadeIn 1s 1.7s backwards;
-        opacity: 0.6;
-      }
-=======
       // &:before {
       //   content: '<h1>';
       //   font-family: 'La Belle Aurore', cursive;
@@ -62,7 +38,6 @@
       //   animation: fadeIn 1s 1.7s backwards;
       //   opacity: 0.6;
       // }
->>>>>>> 0b30b9a (initial commit)
   
       img {
         margin-left: 20px;
@@ -78,11 +53,7 @@
       color: #8d8d8d;
       margin-top: 20px;
       font-weight: 400;
-<<<<<<< HEAD
-      font-size: 11px;
-=======
       font-size: 20px;
->>>>>>> 0b30b9a (initial commit)
       font-family: sans-serif;
       letter-spacing: 3px;
       animation: fadeIn 1s 1.8s backwards;
@@ -152,9 +123,6 @@
       left: 0;
       margin: auto;
     }
-<<<<<<< HEAD
-  }
-=======
   }
 
 
@@ -200,4 +168,3 @@
     margin: auto;
   }
 }
->>>>>>> 0b30b9a (initial commit)
