@@ -54,11 +54,9 @@ const Home = () => {
                 </h1>
                 <h2> 
                 with Bachelor’s degree in Computer engineering, 
-                a Software Development Diploma ,
-                and 
-                Industry work experience
+                a Software Development Diploma and Industry work experience
                 </h2>
-                <Link to="/About" className="flat-button"> Contact Me (: </Link>
+                <Link to="/contact" className="flat-button"> Contact Me (: </Link>
             </div>
         </div>
         <Loader type='pacman' />

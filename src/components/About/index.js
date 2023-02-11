@@ -27,7 +27,7 @@ const About = () => {
                 <p>Furthermore, I have developed several applications in Java, 
                    Python and JS (React, Angular, Nodejs). <br />
                    I also work with SQL, Rest API, Cloud Technologies( like AWS) and GitHub.</p>
-                <p>about me</p>
+                {/* <p>about me</p> */}
 
             </div>
         </div>

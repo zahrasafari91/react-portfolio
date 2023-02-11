@@ -34,11 +34,11 @@ const Contact = () => {
                         strArray={['C','o','n','t','a','c','t', '', 'm','e']}
                         idx = {15}/>
                 </h1>
-                <p>I'm interested in bela bel
+                {/* <p>I'm interested in bela bel
                 I'm interested in bela bel bela
                 I'm interested in bela bel bela
                 I'm interested in bela bel bela
-                </p>
+                </p> */}
 
                 <div className='contact-form'>
                     <form ref={form} onSubmit={sendEmail}>
