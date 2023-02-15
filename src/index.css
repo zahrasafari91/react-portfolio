@@ -8,15 +8,14 @@ body {
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #022c43;
+  background: #0a5780;
   overflow: hidden;
   display: block;
+  /* background-image: url('./assets/images/pxfuel.jpg'); */
+  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35)); */
+
 }
 
-.dashboard {
-  margin-top: 200px;
-  margin-left: 200px;
-}
 
 @media screen and (max-width: 1200px) {
   body {

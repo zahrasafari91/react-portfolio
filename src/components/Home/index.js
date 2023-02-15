@@ -4,19 +4,9 @@ import {Link} from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react'
 import Loader from 'react-loaders';
-import Particles from 'react-tsparticles';
 
-const particlesOptions = {
-    particles: {
-        line_linked: {
-            shadow: {
-                enable: true,
-            },
-            number: { value: 100, density: { enable: true, value_are: 100 } },
-            color: { value: "#cbe8f2" },
-        }
-    }
-}
+
+
 
 const Home = () => {
     const [letterClass] = useState('text-animate')
@@ -28,9 +18,7 @@ const Home = () => {
 
     return (
         <>
-        <div>
-            <Particles className = 'particles' params = { particlesOptions }/>
-         </div >
+
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
