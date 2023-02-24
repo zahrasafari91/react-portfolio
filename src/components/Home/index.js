@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters';
 import { useState } from 'react'
 import Loader from 'react-loaders';
+import Img from '../../assets/images/zara-work.png'
 
 
 
@@ -18,8 +19,10 @@ const Home = () => {
 
     return (
         <>
-
         <div className="container home-page">
+            {/* <div>
+                <img src={Img} alt='developer' />
+            </div> */}
             <div className="text-zone">
                 <h1>
                     <span className={letterClass}>H</span>
@@ -41,11 +44,12 @@ const Home = () => {
                     idx={18}/>
                 </h1>
                 <h2> 
-                with Bachelor’s degree in Computer engineering, 
-                a Software Development Diploma and Industry work experience
+                with Bachelor’s degree in Computer engineering, <br />
+                a Software Development Diploma <br /> and Industry work experience
                 </h2>
-                <Link to="/contact" className="flat-button"> Contact Me (: </Link>
+                <Link to="/contact" className="flat-button"> Let's Talk (: </Link>
             </div>
+
         </div>
         <Loader type='pacman' />
         </>

@@ -22,7 +22,6 @@ const Contact = () => {
               alert('Failed to send the message, please try again')
             }
           )
-          console.log('hit me')
       }
     return (
         <>
@@ -56,7 +55,7 @@ const Contact = () => {
                                 <textarea name="message" placeholder='Message' required></textarea>
                             </li>
                             <li>
-                                <input className="flat-button"  type="submit" value="submit" />
+                                <input className="flat-button"  type="submit" value="send message" />
                             </li>
                         </ul>
                     </form>

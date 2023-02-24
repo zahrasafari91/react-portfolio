@@ -22,13 +22,13 @@ const Sidebar = () => {
     </Link> */}
     <nav className={showNavbar ? 'mobile-show' : ''}>
         <NavLink exact="true" activeclassname="active" to="/" onClick={handleToggleNavbar}>
-            <FontAwesomeIcon icon={faHome} color="#34d4d4de" />
+            <FontAwesomeIcon icon={faHome} color="#ada823" />
         </NavLink>
         <NavLink exact="true" activeclassname="active" className="about-link" to="/about" onClick={handleToggleNavbar}>
-            <FontAwesomeIcon icon={faUser} color="#34d4d4de" />
+            <FontAwesomeIcon icon={faUser} color="#ada823" />
         </NavLink>
         <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact" onClick={handleToggleNavbar}>
-            <FontAwesomeIcon icon={faEnvelope} color="#34d4d4de" />
+            <FontAwesomeIcon icon={faEnvelope} color="#ada823" />
         </NavLink>
         <FontAwesomeIcon 
           onClick={handleToggleNavbar}
